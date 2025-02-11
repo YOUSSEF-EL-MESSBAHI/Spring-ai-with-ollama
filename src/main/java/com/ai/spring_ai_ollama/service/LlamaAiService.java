@@ -13,7 +13,7 @@ public class LlamaAiService {
     @Autowired
     private OllamaChatModel chatModel;
 
-
+// send prompt to llama2 model via ollama
     public String generateResult(String prompt){
         ChatResponse response = chatModel.call(
                 new Prompt(
