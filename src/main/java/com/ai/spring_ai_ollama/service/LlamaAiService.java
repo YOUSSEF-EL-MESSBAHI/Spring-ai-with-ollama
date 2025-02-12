@@ -27,5 +27,5 @@ public class LlamaAiService {
     }
 
 //    prompt compose of System Message,few shot example and User input
-//    zero
+//    zero shot prompt for prompt wihout few shot example
 }
