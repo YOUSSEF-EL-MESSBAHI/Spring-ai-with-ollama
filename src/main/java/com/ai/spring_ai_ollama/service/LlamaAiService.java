@@ -25,4 +25,7 @@ public class LlamaAiService {
                 ));
         return response.getResult().getOutput().getContent();
     }
+
+//    prompt compose of System Message,few shot example and User input
+//    zero
 }
